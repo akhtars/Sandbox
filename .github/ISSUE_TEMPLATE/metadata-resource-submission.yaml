@@ -21,7 +21,7 @@ body:
     description: The name of the resource you are submitting.
   validations:
     required: true
-- type: checkboxes
+- type: dropdown
   attributes:
     label: Resource Type
     description: Select the type that best matches the resource.
