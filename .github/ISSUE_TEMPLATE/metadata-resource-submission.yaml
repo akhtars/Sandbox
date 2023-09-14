@@ -2,7 +2,6 @@ name: Metadata Resource Submission via YAML
 description: "This form will allow you to submit your institution's application profiles, mappings, crosswalks and metadata code as digital files to the Clearinghouse project. The MAP Clearinghouse is a project of the Digital Library Federation (DLF) Assessment Interest Group (AIG) Metadata Assessment Working Group. The Metadata Assessment Working Group aims to build guidelines, best practices, tools and workflows around the evaluation and assessment of (mostly, descriptive) metadata used by and for digital libraries and repositories. The following information will be used to describe your document(s) when on the Clearinghouse website. Please be aware that if you do not complete the mandatory portions of this submission form, we may not be able to include your document(s) in the Clearinghouse."
 title: "New MAP Clearinghouse resource "
 labels: MAP Clearinghouse submission
-assignees: ''
 body:
 - type: textarea
   attributes:
@@ -26,11 +25,11 @@ body:
   attributes:
     label: Resource Type
     description: Select the type that best matches the resource.
-  options:
-    - Metadata application profile
-    - Metadata mapping
-    - Best practice
-    - Metadata schema
+    options:
+      - Metadata application profile
+      - Metadata mapping
+      - Best practice
+      - Metadata schema
   validations:
       required: true
 - type: textarea
