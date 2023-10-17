@@ -48,8 +48,14 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Resource Version and Date
-    description: Please tell us if there is a version number associated with the document(s) and the date when it was released.
+    label: Resource Version
+    description: Please tell us if there is a version number associated with the document(s).
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Resource Date
+    description: Please tell us the date the document was released.
   validations:
     required: false
 - type: textarea
